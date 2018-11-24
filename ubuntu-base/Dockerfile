@@ -56,6 +56,8 @@ RUN echo -e "\n## java home" >> ~/.bashrc \
 
 RUN echo -e "\n## emacs" >> ~/.bashrc \
     && echo -e "alias em=\"emacs -nw\"" >> ~/.bashrc
+    
+RUN sudo mkdir /home/$USER/.ssh
 
 COPY init.el .emacs.d/
 
