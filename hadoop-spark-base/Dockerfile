@@ -1,4 +1,4 @@
-FROM ururu/hadoop-ecosystem:hadoop_1.0
+FROM ururu/hadoop-ecosystem:hadoop_2.0
 
 LABEL maintainer "ururu<wh.ururu@gmail.com>"
 LABEL description="hadoop-spark-base"
